@@ -1,0 +1,107 @@
+.recent {
+    width: 900px;
+    min-height: 230px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: -50px;
+}
+
+.recent-students {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-heading {
+    height: 30px;
+    width: 100%;
+    background-color: #EEF4FF;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1.5fr 1fr;
+    align-items: center;
+
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.student-heading p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.recent-students h2 {
+    font-weight: 500;
+    margin: 10px;
+}
+
+.recent-students button {
+    color: #38bdf8;
+}
+
+.col {
+    height: 30px;
+    width: 100%;
+    background-color: #EEF4FF;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.student {
+    min-height: 33px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1.5fr 1fr;
+    align-items: center;
+
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.student p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.col p {
+    width: 20%;
+    margin: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.student-row {
+    height: 33px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.student-row p {
+    width: 20%;
+    margin: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.recent-students button {
+    border: none;
+    background: transparent;
+    color: #38bdf8;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.recent-students button:hover {
+    text-decoration: underline;
+}

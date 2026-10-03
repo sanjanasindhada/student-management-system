@@ -1,0 +1,249 @@
+.stu-box {
+    height: auto;
+    width: 700px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e4e7ec;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.stu-name {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 700px;
+    background-color: #EEF4FF;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.stu-name p {
+    margin: 10px;
+}
+
+.take_attend {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100px;
+    width: 700px;
+    border: 1px solid #e4e7ec;
+    padding: 10px;
+    line-height: 10px;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+}
+
+.attend_box {
+    height: auto;
+    width: 750px;
+    margin: 50px auto;
+}
+
+.take_attend input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.take_attend select {
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.attend_box h2 {
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.save-btn {
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2563EB;
+    margin: 50px auto;
+    color: white;
+    width: 100px;
+}
+
+.stu-name {
+    min-height: 33px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1.5fr;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.abspres {
+    display: flex;
+    gap: 10px;
+}
+
+.present {
+    height: 30px;
+    width: auto;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin-top: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: #22C55E;
+}
+
+.absent {
+    height: 30px;
+    width: auto;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin-top: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+}
+
+.stu-box {
+    height: auto;
+    width: 700px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e4e7ec;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.stu-name {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 700px;
+    background-color: #EEF4FF;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.stu-name p {
+    margin: 10px;
+}
+
+.take_attend {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100px;
+    width: 700px;
+    border: 1px solid #e4e7ec;
+    padding: 10px;
+    line-height: 10px;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+}
+
+.present.active {
+    background-color: white;
+    color: #22c55e;
+    border: 1px solid #22c55e;
+}
+
+.absent.active {
+    background-color: white;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.attend_box {
+    height: auto;
+    width: 750px;
+    margin: 50px auto;
+}
+
+.take_attend input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.take_attend select {
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.attend_box h2 {
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.save-btn {
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2563EB;
+    margin: 50px auto;
+    color: white;
+    width: 100px;
+}
+.save-btn:active{
+    background-color: white;
+    color: #2563EB;
+}
+.stu-name {
+    min-height: 33px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1.5fr;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.abspres {
+    display: flex;
+    gap: 10px;
+}
+
+.present {
+    background-color: #22C55E;
+    color: white;
+    border: 1px solid #22C55E;
+    padding: 7px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.present.active {
+    background-color: #22C55E;
+    color: white;
+    border-color: #22C55E;
+}
+
+.present.active {
+    background-color: white;
+    color: #22C55E;
+    border: 1px solid #22C55E;
+}
+
+.absent {
+    background-color: #EF4444;
+    color: white;
+    border: 1px solid #EF4444;
+    padding: 7px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.absent.active {
+    background-color: white;
+    color: #EF4444;
+    border-color: #EF4444;
+}
